@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#11130f" />
+  <meta name="description" content="Popcorn Gaming — The Isle server companion." />
+  <title>Popcorn Gaming</title>
+  <link rel="stylesheet" href="/css/main.css" />
+  <script src="/js/app.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="/" aria-label="Popcorn Gaming home">
+      <span class="brand-mark">P</span>
+      <span><strong>Popcorn</strong><small>Gaming</small></span>
+    </a>
+
+    <nav class="top-nav" aria-label="Main navigation">
+      <a href="#features">Features</a>
+      <a href="#economy">Economy</a>
+      <a href="#activity">Activity</a>
+      <button class="steam-button steam-button-small" type="button" data-steam-login>
+        Sign in with Steam
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <span class="eyebrow">THE ISLE SERVER COMPANION</span>
+        <h1>Your dinos.<br />Your progress.<br /><span>All in one place.</span></h1>
+
+        <p class="hero-text">
+          Store dinos, preserve skins and mutations, earn Kernals while playing,
+          join events, browse the market, and navigate the server from one connected companion site.
+        </p>
+
+        <div class="hero-actions">
+          <button class="steam-button" type="button" data-steam-login>
+            <span class="steam-icon">●</span>
+            Sign in with Steam
+          </button>
+          <a class="secondary-button" href="#features">See planned features</a>
+        </div>
+
+        <p class="login-note">
+          Steam will be used as your account identity. Popcorn never receives your Steam password.
+        </p>
+      </div>
+
+      <aside class="dashboard-preview">
+        <div class="preview-top">
+          <div>
+            <span class="preview-label">CURRENT DINO</span>
+            <strong>Beipiaosaurus</strong>
+          </div>
+          <span class="status-pill">Offline Demo</span>
+        </div>
+
+        <div class="stat-grid">
+          <div class="stat-card"><span>Growth</span><strong>72%</strong></div>
+          <div class="stat-card"><span>Food</span><strong>84%</strong></div>
+          <div class="stat-card"><span>Thirst</span><strong>66%</strong></div>
+          <div class="stat-card"><span>Next payout</span><strong>02:43</strong></div>
+        </div>
+
+        <div class="balance-card">
+          <div><span>Kernals</span><strong>4,820</strong></div>
+          <div><span>Purrls</span><strong>7</strong></div>
+        </div>
+
+        <div class="event-card">
+          <span class="preview-label">ACTIVE EVENT</span>
+          <strong>Beipi Bonanza</strong>
+          <p>3× Kernals while playing Beipiaosaurus</p>
+          <div class="event-progress"><span style="width:64%"></span></div>
+          <small>1h 24m remaining</small>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section" id="features">
+      <div class="section-heading">
+        <span class="eyebrow">PLANNED SYSTEMS</span>
+        <h2>Built around your actual dino.</h2>
+        <p>The game server remains the source of truth while the website handles the companion features around it.</p>
+      </div>
+
+      <div class="feature-grid">
+        <article class="feature-card">
+          <span class="feature-number">01</span>
+          <h3>Dino Storage</h3>
+          <p>Store and redeem dinos while preserving growth, mutations, Prime, food, thirst, diets, lineage and current skin.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-number">02</span>
+          <h3>Skin Collection</h3>
+          <p>Community JSON skins, nested birth skins, regional hatching skins, random rewards and automatic skin restoration.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-number">03</span>
+          <h3>Market & Auctions</h3>
+          <p>Buy blank dinos, trade stored dinos and run timed auctions with ownership locking to prevent duplication.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-number">04</span>
+          <h3>Events & Quests</h3>
+          <p>Species-specific bonus events, quests, minigames, crates, tokens and limited rewards.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-number">05</span>
+          <h3>Navigation</h3>
+          <p>See your own location, set destinations, use preset teleports and get landmark-based hunting activity reports.</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-number">06</span>
+          <h3>Entomb & Lineage</h3>
+          <p>Keep lineage history, preserve improved Entomb mutations and reapply the dino's saved skin to its fresh hatchling life.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section split-section" id="economy">
+      <div>
+        <span class="eyebrow">SERVER ECONOMY</span>
+        <h2>Play the dinos that need more love.</h2>
+        <p>
+          Kernals are earned automatically from complete survival intervals.
+          Smaller and underplayed species can receive higher payouts to encourage a more varied server population.
+        </p>
+      </div>
+
+      <div class="economy-panel">
+        <div class="economy-row featured"><span>Beipiaosaurus</span><strong>High payout</strong></div>
+        <div class="economy-row"><span>Small dinos</span><strong>Higher payout</strong></div>
+        <div class="economy-row"><span>Medium dinos</span><strong>Moderate</strong></div>
+        <div class="economy-row"><span>Large / Apex</span><strong>Lower payout</strong></div>
+
+        <div class="currency-explainer">
+          <div><strong>Kernals</strong><span>Normal currency</span></div>
+          <div><strong>Purrls</strong><span>Special currency</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="activity">
+      <div class="section-heading">
+        <span class="eyebrow">HUNTING ACTIVITY</span>
+        <h2>Useful information without exact player tracking.</h2>
+        <p>
+          Public activity reports use landmarks and broad descriptions instead of showing individual player positions.
+        </p>
+      </div>
+
+      <div class="activity-list">
+        <div class="activity-row">
+          <div><strong>South Plains</strong><span>Seems a little quiet currently.</span></div>
+          <span class="activity-dot low"></span>
+        </div>
+        <div class="activity-row">
+          <div><strong>Highlands</strong><span>There's some activity around here.</span></div>
+          <span class="activity-dot medium"></span>
+        </div>
+        <div class="activity-row">
+          <div><strong>East Plains</strong><span>Seems fairly active right now.</span></div>
+          <span class="activity-dot high"></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section">
+      <span class="eyebrow">POPCORN GAMING</span>
+      <h2>One account. Your whole server life.</h2>
+      <p>Steam login, dinos, skins, currencies, events, market, quests and navigation — connected to the same player identity.</p>
+      <button class="steam-button" type="button" data-steam-login>
+        <span class="steam-icon">●</span>
+        Sign in with Steam
+      </button>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="brand footer-brand">
+      <span class="brand-mark">P</span>
+      <span><strong>Popcorn</strong><small>Gaming</small></span>
+    </div>
+    <p>Popcorn Gaming is an independent community project.</p>
+  </footer>
+
+  <div class="toast" id="toast" role="status" aria-live="polite">
+    <strong>Steam login is next.</strong>
+    <span>The first deploy is working — authentication will be connected in the next step.</span>
+  </div>
+</body>
+</html>
